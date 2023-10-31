@@ -1,0 +1,18 @@
+{
+  "textures": [
+    {
+      "name": "hi",
+      "path": "jk"
+    },
+    {
+      "name": "k",
+      "path": [ "j", "k", "l" ]
+    }
+  ],
+  "meshes": [
+    {
+      "name": [ 3, "" ],
+      "other": [ 8, "k" ]
+    }
+  ]
+} 
