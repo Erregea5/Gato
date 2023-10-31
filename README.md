@@ -1,4 +1,7 @@
-# Gato
+# Gato Game Engine
+
+# Table of Contents
+- [Screenshots](#screenshots)
 - [About](#about)
 	- [Features](#features)
 	- [Stuff I want to do](#to-do)
@@ -6,6 +9,10 @@
 	- [Structure](#structure)
 	- [Globals](#globals)
 	- [Classes](#classes)
+# Screenshots
+![Gato Start](./images/GatoStart.png)
+![Gato Game Start](./images/GatoGameStart.png)
+![Gato New Resource](./images/GatoNewResource.png)
 
 # About
 Gato is a minimalistic 3D game engine with Lua scripting. Gato was made so I could learn about graphics and desktop app development. The engine is not very mature yet but I have hopes for it in the future.
