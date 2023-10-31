@@ -413,9 +413,9 @@ emptyObject.audio:playSound()
 		dot(vec3 x,vec3 y)->float
 		dot(vec2 x,vec2 y)->float
 
+		length(vec4 x)->float
 		length(vec3 x)->float
-		length(vec3 x)->float
-		length(vec3 x)->float
+		length(vec2 x)->float
 
 		cross(vec3 x,vec3 y)->vec3
 ```lua
