@@ -97,7 +97,7 @@
     <Link>
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalLibraryDirectories>$(SolutionDir)Dependencies\glfw\lib-vc2010-32;$(SolutionDir)Dependencies\glew\lib\Release\Win32;$(SolutionDir)Dependencies\OpenAL\libs\Win32;$(SolutionDir)Dependencies\lua\lib\Win32;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>$(SolutionDir)Dependencies\glfw\lib-vc2010-32;$(SolutionDir)Dependencies\glew\lib\libWin32;$(SolutionDir)Dependencies\OpenAL\libs\libWin32;$(SolutionDir)Dependencies\lua\lib\libWin32;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalDependencies>luajit.lib;lua51.lib;OpenAL32.lib;glfw3.lib;opengl32.lib;glew32s.lib;legacy_stdio_definitions.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
@@ -119,7 +119,7 @@
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
       <OptimizeReferences>true</OptimizeReferences>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalLibraryDirectories>$(SolutionDir)Dependencies\glfw\lib-vc2010-32;$(SolutionDir)Dependencies\glew\lib\Release\Win32;$(SolutionDir)Dependencies\OpenAL\libs\Win32;$(SolutionDir)Dependencies\lua\lib\Win32;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>$(SolutionDir)Dependencies\glfw\lib-vc2010-32;$(SolutionDir)Dependencies\glew\lib\libWin32;$(SolutionDir)Dependencies\OpenAL\libs\libWin32;$(SolutionDir)Dependencies\lua\lib\libWin32;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalDependencies>luajit.lib;lua51.lib;OpenAL32.lib;glfw3.lib;opengl32.lib;glew32s.lib;legacy_stdio_definitions.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
@@ -138,7 +138,7 @@
     <Link>
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalLibraryDirectories>$(SolutionDir)Dependencies\glfw\lib-vc2010-64;$(SolutionDir)Dependencies\glew\lib\Release\x64;$(SolutionDir)Dependencies\OpenAL\libs\Win64;$(SolutionDir)Dependencies\lua\lib\x64;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>$(SolutionDir)Dependencies\glfw\lib-vc2010-64;$(SolutionDir)Dependencies\glew\lib\libx64;$(SolutionDir)Dependencies\OpenAL\libs\libx64;$(SolutionDir)Dependencies\lua\lib\libx64;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalDependencies>lua54.lib;OpenAL32.lib;glfw3.lib;opengl32.lib;glew32s.lib;legacy_stdio_definitions.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
@@ -160,7 +160,7 @@
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
       <OptimizeReferences>true</OptimizeReferences>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalLibraryDirectories>$(SolutionDir)Dependencies\glfw\lib-vc2010-64;$(SolutionDir)Dependencies\glew\lib\Release\x64;$(SolutionDir)Dependencies\OpenAL\libs\Win64;$(SolutionDir)Dependencies\lua\lib\x64;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>$(SolutionDir)Dependencies\glfw\lib-vc2010-64;$(SolutionDir)Dependencies\glew\lib\libx64;$(SolutionDir)Dependencies\OpenAL\libs\libx64;$(SolutionDir)Dependencies\lua\lib\libx64;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalDependencies>lua54.lib;OpenAL32.lib;glfw3.lib;opengl32.lib;glew32s.lib;legacy_stdio_definitions.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>

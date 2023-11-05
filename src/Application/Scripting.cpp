@@ -541,7 +541,6 @@ end
         filePath = clean(_filePath);
         name = getName(filePath);
         
-        std::cout<<"dirt: "<<_filePath << "path: " << filePath << " name: " << name << std::endl;
         if (!std::ifstream(filePath))
         {
             std::ofstream out(filePath);
