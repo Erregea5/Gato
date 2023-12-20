@@ -113,7 +113,8 @@ namespace Graphics {
     {
         if (uniformLocationCache.find(name) != uniformLocationCache.end())
             return uniformLocationCache[name];
-        GLCall(int location = glGetUniformLocation(ID, name.c_str()));
+        int location;
+        GLCall(location = glGetUniformLocation(ID, name.c_str()));
         if (location == -1)
             std::cout << "Warning! Uniform " << name << " doesn't exist\n";
         uniformLocationCache[name] = location;
@@ -214,7 +215,8 @@ namespace Graphics {
 
     unsigned int Shader::compileShader(unsigned int type, std::string& shaderCode)
     {
-        GLCall(GLuint shader = glCreateShader(type));
+        GLuint shader;
+        GLCall(shader = glCreateShader(type));
         const char* code = shaderCode.c_str();
         GLCall(glShaderSource(shader, 1, &code, NULL));
         GLCall(glCompileShader(shader));

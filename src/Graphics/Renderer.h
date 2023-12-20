@@ -21,9 +21,10 @@ namespace Graphics {
 			if(!(x)) __debugbreak();
 #endif
 
-#define GLCall(x) \
-			x;\
-			ASSERT(GLErrorLog(__FILE__,#x,__LINE__));
+#define GLCall(x) {\
+				x;\
+				ASSERT(GLErrorLog(__FILE__, #x, __LINE__));\
+			}while(0)
 
 	void GLClearError();
 	void GLAllErrors();

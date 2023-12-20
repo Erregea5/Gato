@@ -8,7 +8,8 @@
         initCube(color, depth);\
     else\
         init2D(color, depth);\
-    GLCall(GLenum status = glCheckFramebufferStatus(GL_FRAMEBUFFER));\
+    GLenum status;\
+    GLCall(status = glCheckFramebufferStatus(GL_FRAMEBUFFER));\
     if (status != GL_FRAMEBUFFER_COMPLETE)\
         ASSERT(false);\
     unBind()
